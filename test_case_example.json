@@ -1,0 +1,16 @@
+{
+  "tests": [
+    {
+      "name": "Signup Flow",
+      "description": "User should be able to sign up",
+      "steps": [
+        {"command": "page.goto('https://recruter.ai')"},
+        {"command": "page.click('#signup-button')"},
+        {"command": "page.fill('#email', 'test@example.com')"},
+        {"command": "page.fill('#password', 'securepassword')"},
+        {"command": "page.click('#submit')"},
+        {"command": "expect(page).toHaveURL(/dashboard/)"}
+      ]
+    }
+  ]
+}

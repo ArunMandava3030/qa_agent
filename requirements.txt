@@ -1,0 +1,9 @@
+openai
+langchain
+langchain-community
+langchain-openai
+langchain-core
+openai-whisper
+faiss-cpu
+streamlit
+playwright
